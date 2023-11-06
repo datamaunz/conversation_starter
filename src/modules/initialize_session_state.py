@@ -10,4 +10,6 @@ def initiatlize_session_dict():
         st.session_state["question"] = None
     if "question_sampling" not in st.session_state:
         st.session_state["question_sampling"] = 1
+    if "random_player" not in st.session_state:
+        st.session_state["random_player"] = None
         
